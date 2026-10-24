@@ -1,0 +1,18 @@
+/target/
+/package/
+/backups/
+/*.zip
+
+# Локальные журналы и экспорт конфигурации Windows Firewall.
+logs/
+*.log
+*.wfw
+
+# Локальные секреты и настройки окружения.
+.env
+.env.*
+!.env.example
+
+# Временные файлы инструментов Windows.
+*.pdb
+*.ilk
